@@ -32,11 +32,11 @@ setup(
     license="FreeBSD",
     packages=['pycocotools'],
     package_dir={'pycocotools': 'pycocotools'},
-    python_requires='>=3.5',
+    python_requires='>=3.9',
     install_requires=[
         'matplotlib>=2.1.0',
         'numpy',
     ],
-    version='2.0.7',
+    version='2.0.8',
     ext_modules=ext_modules
 )
